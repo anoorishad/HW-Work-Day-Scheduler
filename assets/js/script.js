@@ -11,10 +11,98 @@ setInterval(function(){
 },1000)
 
 // 9am
-if (currentHour === 19 ) {
+if (currentHour === 9 ) {
     $("#9").addClass("present");
 }
-else if (currentHour > 19) {
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 10am
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 11am
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 12pm
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 1pm
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 2pm
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 3pm
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 4pm
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
+    $("#9").addClass("past");
+}
+else {
+    $("#9").addClass("future");
+}
+console.log(currentHour);
+// 5pm
+if (currentHour === 9 ) {
+    $("#9").addClass("present");
+}
+else if (currentHour > 9) {
     $("#9").addClass("past");
 }
 else {
